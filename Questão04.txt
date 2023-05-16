@@ -1,0 +1,8 @@
+O props drilling ocorre quando eu quero passar um props para um neto de algum compenente,
+porém ele vai ter que passar pelo filho primeiro, mesmo que o filho nem se quer utilize o que
+esteja recebendo, somente passar adiante.
+
+exemplo.png <- exemplo
+
+O contexto é utilizado para evitar esse desperdicio de código, passando o props diretamente ao
+componente que vai utilizá-lo
